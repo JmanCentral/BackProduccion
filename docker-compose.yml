@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  app_vet:
+    build: /
+    mem_limit: 512m
+    ports:
+      - "8862:8862"
+    environment:
+      DB_URL: jdbc:postgresql://Apptrivia:5432/Pruebalogros
+      DB_USER_NAME: postgres
+      DB_PASSWORD: edding350
+    restart: always
+    depends_on:
+      Apptrivia:
+        condition: service_healthy
+
+  Apptrivia:
+    image: postgres:15
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: edding350
+      POSTGRES_DB: Pruebalogros
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      timeout: 10s
+      retries: 10
