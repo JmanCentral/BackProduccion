@@ -24,7 +24,7 @@ public class ControladorHistorial {
         HistorialDTO historialGuardado = servicioHistorial.registrarHistorial(historialDto);
         return ResponseEntity.ok(historialGuardado);
     }
-
+//ajustes
     @GetMapping("/usuario/{username}")
     public ResponseEntity<List<HistorialDTO>> obtenerHistorialPorUsuario(@PathVariable String username) {
         List<HistorialDTO> historialUsuario = servicioHistorial.obtenerHistorialPorUsuario(username);
