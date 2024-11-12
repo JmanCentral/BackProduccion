@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.backendproduccion.BackendproduccionApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.40 s -- in com.example.backendproduccion.BackendproduccionApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 87.54 s -- in com.example.backendproduccion.BackendproduccionApplicationTests
