@@ -238,11 +238,11 @@ public class ServicioPregunta implements Serializable {
                 new PreguntaDTO(null, "¿Qué club ha ganado más títulos de la UEFA Champions League?", "Barcelona", "Real Madrid", "Manchester United", "AC Milan", "Real Madrid", "deportes", "dificil",true),
                 new PreguntaDTO(null, "¿En qué año ganó Roger Federer su primer título de Grand Slam?", "2002", "2003", "2004", "2005", "2003", "deportes", "dificil",true),
                 new PreguntaDTO(null, "¿Quién fue el primer campeón mundial de Fórmula 1?", "Niki Lauda", "Juan Manuel Fangio", "Giuseppe Farina", "Alain Prost", "Giuseppe Farina", "deportes", "dificil",true),
-                new PreguntaDTO(null, "¿En qué país se inventó el baloncesto?", "Estados Unidos", "Canadá", "Francia", "Inglaterra", "Canadá", "deportes", "dificil",true),
-                new PreguntaDTO(null, "¿Qué selección de rugby ha ganado más veces la Copa del Mundo?", "Australia", "Inglaterra", "Nueva Zelanda", "Sudáfrica", "Nueva Zelanda", "deportes", "dificil",true),
-                new PreguntaDTO(null, "¿Quién es el máximo goleador histórico de la NBA?", "Kobe Bryant", "Michael Jordan", "Karl Malone", "Kareem Abdul-Jabbar", "Kareem Abdul-Jabbar", "deportes", "dificil",true),
-                new PreguntaDTO(null, "¿Quién es el tenista más joven en ganar un título de Grand Slam?", "Boris Becker", "Rafael Nadal", "Pete Sampras", "Björn Borg", "Boris Becker", "deportes", "dificil",true),
-                new PreguntaDTO(null, "¿Qué piloto ha ganado más títulos de MotoGP?", "Valentino Rossi", "Marc Márquez", "Giacomo Agostini", "Mick Doohan", "Giacomo Agostini", "deportes", "dificil",true)
+                new PreguntaDTO(null, "¿En qué país se inventó el baloncesto?", "Estados Unidos", "Canadá", "Francia", "Inglaterra", "Canadá", "deportes", "dificil",false),
+                new PreguntaDTO(null, "¿Qué selección de rugby ha ganado más veces la Copa del Mundo?", "Australia", "Inglaterra", "Nueva Zelanda", "Sudáfrica", "Nueva Zelanda", "deportes", "dificil",false),
+                new PreguntaDTO(null, "¿Quién es el máximo goleador histórico de la NBA?", "Kobe Bryant", "Michael Jordan", "Karl Malone", "Kareem Abdul-Jabbar", "Kareem Abdul-Jabbar", "deportes", "dificil",false),
+                new PreguntaDTO(null, "¿Quién es el tenista más joven en ganar un título de Grand Slam?", "Boris Becker", "Rafael Nadal", "Pete Sampras", "Björn Borg", "Boris Becker", "deportes", "dificil",false),
+                new PreguntaDTO(null, "¿Qué piloto ha ganado más títulos de MotoGP?", "Valentino Rossi", "Marc Márquez", "Giacomo Agostini", "Mick Doohan", "Giacomo Agostini", "deportes", "dificil",false)
 
         );
     }
